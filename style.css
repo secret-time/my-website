@@ -1,0 +1,57 @@
+/* 🌈 رنگ‌ها */
+:root {
+  --primary-color: #0066cc;
+  --secondary-color: #ffcc00;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+}
+
+/* 🌍 استایل کلی */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* 🔹 هدر */
+header {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #004c99, #0099ff);
+  color: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ✨ دکمه */
+.glow-btn {
+  background-color: var(--secondary-color);
+  color: #333;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.4);
+}
+
+.glow-btn:hover {
+  box-shadow: 0 0 25px rgba(255, 204, 0, 0.8), 0 0 60px rgba(255, 204, 0, 0.4);
+  transform: translateY(-3px);
+}
+
+/* 🧠 بخش درباره من */
+.about {
+  padding: 60px 20px;
+}
+
+/* ⚓ فوتر */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+}
